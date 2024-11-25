@@ -1,0 +1,138 @@
+* body{
+  background-color: #EDF2F4 !important;
+}
+.navbar-hover:hover{
+  color: #0096C7 !important;
+  font-size: large;
+  font-weight: bold;
+  transition: 0.5s ease-out;
+}
+.nav-btn{
+  background-color: #0096C7 !important;
+  border: none !important;
+}
+
+
+
+
+.home-section1{
+  margin-top: 96px;
+  /* margin-bottom: 96px; */
+  height: 700px;
+  width: 100%;
+}
+.home-main1{
+  height: 509px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+.home-section1-heading{
+  font-size: 61px;
+  line-height: 1; 
+}
+.home-section1-para{
+  font-size: 18px;
+
+}
+.home-section1-btn1{
+  padding: 12px 32px 12px 32px;
+  background-color: #0096C7;
+  color: white;
+  border: 1px solid #0096C7;
+  border-radius: 5px;
+  
+
+}
+.home-section1-btn2{
+  padding: 12px 32px 12px 32px;
+  background-color: white;
+  color:#0096C7;
+  border: 1px solid #0096C7;
+  border-radius: 5px;
+  
+}
+.home-icon{
+  width: 24px;
+  height: 24px;
+  
+}
+
+.home-main2{
+  height: 487px;
+}
+.home-main2-inner{
+  margin-left: 260px;
+}
+
+
+.rating{
+  height: 142px;
+  width: 300px;
+  background-color:  #EDF2F4;
+  border: none;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  line-height: 20px;
+  position: relative;
+  top: -275px;
+  left: 436px;
+  box-shadow: 5px 5px 40px grey;
+}
+.star-icon{
+  width: 20px;
+  height: 19.02px;
+  color: #FCBF49;  
+}
+
+.rating-heading{
+  font-size: 37px;
+  font-weight: bold;
+}
+.rating-para{
+  color:  #808080;
+  height: 19px;
+}
+.customers{
+  width: 323px;
+  height: 128px;
+  background-color: #EDF2F4;
+  color: black;
+  border: none;
+  border-radius: 16px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 24px 64px 24px 64px;
+  position: relative;
+  top: -320px;
+  left: 71px;
+  box-shadow: 5px 5px 40px grey;
+}
+.customer-text{
+  font-size: 20px;
+}
+
+.logos-section{
+  height: 100px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  background-color: #252422;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.logos-section div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
