@@ -1,10 +1,9 @@
 import React from 'react'
+import Section from '../Mix/Section'
 
 const Blogs = () => {
   return (
-    <div>
-      <h1>Blogs</h1>
-    </div>
+    <Section title="Blogs" />
   )
 }
 

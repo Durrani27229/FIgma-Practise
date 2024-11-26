@@ -1,10 +1,9 @@
 import React from 'react'
+import Section from '../Mix/Section'
 
 const Pricing = () => {
   return (
-    <div>
-      <h1>Pricing</h1>
-    </div>
+    <Section title="Pricing Plan" />
   )
 }
 

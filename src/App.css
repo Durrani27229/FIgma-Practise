@@ -122,7 +122,6 @@
 .logos-section{
   height: 100px;
   padding-top: 32px;
-  padding-bottom: 32px;
   background-color: #252422;
   display: flex;
   justify-content: space-around;
@@ -135,4 +134,184 @@
   justify-content: center;
   align-items: center;
   padding: 10px;
+}
+
+.section{
+  background-image: url('../public/SectionBg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-content{
+  font-size: 76px;
+  font-weight: 700;
+  /* text-align: center; */
+  /* align-items: center; */
+}
+.section-para{
+  font-size: 18px;
+}
+.section-title{
+  color: #808080;
+  font-size: 18px;
+}
+.about-section{
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  height: 799px;
+  padding-top: 96px;
+  padding-bottom: 96px;
+  width: 590px;
+}
+.about-section-about{
+  font-size: 16px;
+  color: #0096C7;
+}
+.about-section-heading{
+  font-size: 49px;
+  font-weight: 700;
+  line-height: 1;
+
+}
+.about-section-heading2{
+  font-size: 49px;
+  font-weight: 700;
+  color: #0096C7;
+  line-height: 1;
+}
+.about-para{
+  font-size: 18px;
+  color: #4D4D4D;
+  font-weight: 400;
+  line-height: 24px;
+
+}
+.about-section-three-cart{
+  display: flex;
+  justify-content: space-around;
+  line-height: 0.8;
+}
+.about-section-cart-heading{
+  font-size: 49px;
+  font-weight: 700;
+}
+
+.strategy-heading{
+  font-size: 25px;
+  font-weight: 600;
+}
+.grey{
+  color: #4D4D4D;
+}
+.blue{
+  color: #0096C7;
+}
+.about-content{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+  height: 483px;
+}
+.about-section-heading3{
+  font-size: 49px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+.ab-1{
+  width: 387px;
+}
+.ab-2{
+  width: 384px;
+}
+.about-arrow{
+  width: 20px;
+  height: 20px;
+  margin-bottom: 3px;
+}
+
+
+/* ============== Sevrice Data ================= */
+
+
+.service-main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+}
+
+.service-strategy{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.service-para{
+  font-size: 18px;
+  color: #4D4D4D;
+  font-weight: 400;
+  line-height: 24px;
+}
+.check-text{
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 21.6px;
+}
+.check-icon{
+  width: 33px;
+  height: 32px;
+  color: #0096C7;
+}
+.services-check{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.service-img{
+  width: 536px;
+  height: 395px;
+}
+.service-i{
+  display: flex;
+  justify-content: end;
+  margin-top: 100px
+}
+.service-section-heading{
+  font-size: 49px;
+  font-weight: 700;
+  line-height: 1;
+}
+.service-cart-content{
+  display: flex;
+  justify-content: space-between;
+}
+.service-cart-detail{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.services-cart-icons{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: end;
+}
+.service-cart{
+  width: 386px;
+  height: 472px;
+}
+.service-cart-name{
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
 }
