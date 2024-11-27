@@ -89,6 +89,10 @@
   height: 19.02px;
   color: #FCBF49;  
 }
+.star-black{
+  width: 20px;
+  height: 19.02px;
+}
 
 .rating-heading{
   font-size: 37px;
@@ -314,4 +318,88 @@
   font-size: 20px;
   font-weight: 600;
   line-height: 30px;
+}
+.customer-para{
+  font-size: 18px;
+  line-height: 0;
+  color: #252422;
+}
+.customer-cart-head{
+  width: 175px;
+  height: 64px;
+}
+.lh-0{
+  line-height: 0.3;
+}
+.customer-cart{
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  width: 360px;
+}
+.customer-review{
+  height: 193px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+/* ================ Footer ================ */
+.footer{
+  display: flex;
+  justify-content: space-between;
+  height: 318px;
+}
+.footer-logo{
+  width: 283px;
+  height: 263px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.footer-company{
+  height: 276px;
+  width: 122px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around ;
+}
+.footer-heading{
+  font-size: 20px;
+  font-weight: 600;
+
+}
+.footer-content{
+  font-size: 18px;
+}
+.footer-services{
+  height: 276px;
+  width: 270px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around ;
+}
+.footer-form{
+  width: 386px;
+  height: 286px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+}
+.inp{
+  width: 386px;
+  height: 56px;
+  border: 1px solid #0096C7;
+  border-radius: 5px;
+  padding: 10px;
+}
+.footer-btn{
+  padding: 12px 32px 12px 32px;
+  background-color: #0096C7;
+  color: white;
+  border: 1px solid #0096C7;
+  border-radius: 5px;
+  width: 386px;
+  height: 56px;
 }
