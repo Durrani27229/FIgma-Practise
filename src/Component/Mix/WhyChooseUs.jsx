@@ -6,8 +6,8 @@ import { FaCheckCircle } from "react-icons/fa";
 
 const WhyChooseUs = () => {
   return (
-   <Container>
-   <Row className="mt-5">
+   <Container className="mt-5">
+   <Row>
     <Col>
         <div className="mt-5">
           <p className="about-section-about">Why Choose Us</p>

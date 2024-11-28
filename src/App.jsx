@@ -12,6 +12,7 @@ import Services from './Component/Services/Services';
 import Pricing from './Component/Pricing/Pricing';
 import Blogs from './Component/Blogs/Blogs';
 import Logos from './Component/Mix/Logos';
+import CaseStudy from './Component/Mix/CaseStudy'
 
 function App() {
     const router = createBrowserRouter([
@@ -34,6 +35,10 @@ function App() {
       {
         path: '/blogs',
         element : <> <Navbar /> <Blogs /> </>
+      },
+      {
+        path: '/case',
+        element: <> <Navbar /> <CaseStudy /> </>
       }
     ])
 

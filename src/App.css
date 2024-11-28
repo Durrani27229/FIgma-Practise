@@ -403,3 +403,286 @@
   width: 386px;
   height: 56px;
 }
+
+/* ============== Pricing ============ */
+.price-cart{
+  width: 377px;
+  height: 504px;
+  border-radius: 16px;
+  border: none;
+  box-shadow: 5px 5px 40px grey;
+  padding: 48px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 10px auto;
+
+
+
+}
+.price-para{
+  font-size: 13px;
+  color: #252422;
+}
+.check-circle{
+  width: 24px;
+  height: 24px;
+  color: #0096C7;
+}
+.price-cart-btn{
+  padding: 8px 32px 8px 32px;
+  background-color: white;
+  color: #0096C7;
+  border: 1px solid #0096C7;
+  border-radius: 5px;
+  width: 277px;
+  height: 43px; 
+  font-size: 16px;
+
+
+}
+.price-cart-btn2{
+  padding: 8px 32px 12px 32px;
+  font-size: 16px;
+  background-color: #0096C7;
+  color: white;
+  border: 1px solid #0096C7;
+  border-radius: 5px;
+  width: 277px;
+  height: 43px;
+  
+}
+.price-content{
+ font-size: 13px;
+ color: #252422;
+}
+.price-heading{
+  font-size: 49px;
+  font-weight: 700;
+}
+.price-power{
+  font-size: 13px;
+  vertical-align: top;
+}
+.price-base{
+  font-size: 13px;
+}
+.price-cart-heading{
+  font-size: 25px;
+  font-weight: 600;
+  color: #0096C7;
+}
+
+/* =============== Banner =============== */
+
+.banner{
+  /* background-image: url('../public/bannner.jpeg'); */
+  height: 393px;
+  background-color: #001E28CC;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+}
+.banner div{
+  margin: 8px;
+}
+.banner-heading{
+  font-size: 39px;
+  font-weight: 600;
+  color: #EDF2F4;
+}
+.banner-para{
+  font-size: 18px;
+  color: #EDF2F4;
+}
+
+/* =================== Blog Cart ============== */
+
+.blog-cart{
+  width: 387px;
+  height: 418px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 10px auto;
+  
+}
+.blog-image1{
+  width: 100%;
+  height: 290px;
+  border-radius: 16px;
+  background-image: url('../public/blog1.png');
+  background-position: center;
+  background-size: contain;
+}
+.blog-image2{
+  width: 100%;
+  height: 290px;
+  border-radius: 16px;
+  background-image: url('../public/blog2.png');
+  background-position: center;
+  background-size: contain;
+}
+.blog-image3{
+  width: 100%;
+  height: 290px;
+  border-radius: 16px;
+  background-image: url('../public/blog3.png');
+  background-position: center;
+  background-size: contain;
+}
+.blog-image4{
+  width: 100%;
+  height: 290px;
+  border-radius: 16px;
+  background-image: url('../public/blog4.png');
+  background-position: center;
+  background-size: contain;
+}
+.blog-image5{
+  width: 100%;
+  height: 290px;
+  border-radius: 16px;
+  background-image: url('../public/blog5.png');
+  background-position: center;
+  background-size: contain;
+}
+.blog-image6{
+  width: 100%;
+  height: 290px;
+  border-radius: 16px;
+  background-image: url('../public/blog6.png');
+  background-position: center;
+  background-size: contain;
+}
+.blog-content{
+  font-size: 20px;
+  font-weight: 600;
+  color: #252422;
+  margin-top: 15px;
+}
+.blog-date{
+  font-size: 13px;
+  color: #808080;
+}
+.blog-link{
+  color: #0096C7;
+  font-size: 13px;
+}
+.blog-btn{
+  padding: 10px;
+  border: 1px solid #0096C7;
+  border-radius: 16px;
+  padding: 4px 12px 4px 12px;
+  width: 142px;
+  height: 28px;
+  background-color: #0096C7;
+  color: #EDF2F4;
+  font-size: 13px;
+  margin: 10px;
+}
+.blog-end{
+  display: flex;
+  justify-content: space-between  ;
+  align-items: center;
+}
+
+.blog-view-all{
+  padding: 8px 32px 8px 32px;
+  font-size: 16px;
+  background-color: #0096C7;
+  color: white;
+  border: 1px solid #0096C7;
+  border-radius: 5px;
+  width: 185px;
+  height: 43px;
+}
+
+/* ================ Case Study ================ */
+
+.case-cart{
+  height: 415px;
+  width: 588px;
+  display: flex;
+  flex-direction: column;
+  margin: 10px auto;
+}
+.case-image1{
+    width: 588px;
+    height: 361px;
+    border-radius: 16px;
+    background-image: url('../public/case1.png');
+    background-position: center;
+    background-size: contain;
+}
+.case-image2{
+    width: 588px;
+    height: 361px;
+    border-radius: 16px;
+    background-image: url('../public/case2.png');
+    background-position: center;
+    background-size: contain;
+}
+.case-image3{
+    width: 588px;
+    height: 361px;
+    border-radius: 16px;
+    background-image: url('../public/case3.png');
+    background-position: center;
+    background-size: contain;
+}
+.case-image4{
+    width: 588px;
+    height: 361px;
+    border-radius: 16px;
+    background-image: url('../public/case4.png');
+    background-position: center;
+    background-size: contain;
+}
+.case-image5{
+    width: 588px;
+    height: 361px;
+    border-radius: 16px;
+    background-image: url('../public/case5.png');
+    background-position: center;
+    background-size: contain;
+}
+.case-image6{
+    width: 588px;
+    height: 361px;
+    border-radius: 16px;
+    background-image: url('../public/case6.png');
+    background-position: center;
+    background-size: contain;
+}
+.case-btn{
+  width: 109px;
+  height: 28px;
+  border-radius: 16px;
+  border: 1px solid #0096C7;
+  background-color: #0096C7;
+  color: #EDF2F4;
+  padding: 4px 12px 4px 12px;
+  margin: 10px;
+  font-size: 13px;
+}
+.case-title{
+  font-size: 25px;
+  font-weight: 600px;
+  /* margin-top: 15px; */
+}
+.case-end{
+  display: flex;
+  justify-content: space-between  ;
+  align-items: center;
+  margin-top: 15px;
+}
+.case-link{
+  font-size: 16px;
+  color: #0096C7;
+}
+

@@ -9,7 +9,7 @@ import { FiLinkedin } from "react-icons/fi";
 
 const Footer = () => {
   return (
-    <Container>
+    <Container className="mt-5">
       <Row className="mt-5"> 
         <Col>
           <div className="footer">

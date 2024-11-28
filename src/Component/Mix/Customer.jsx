@@ -6,8 +6,8 @@ import { FaStar } from "react-icons/fa6";
 
 const Customer = () => {
   return (
-    <Container>
-        <Row className="mt-5">
+    <Container className="mt-5">
+        <Row >
           <Col>
             <div className="d-flex flex-column justify-content-space-between">
               <p className="about-section-about">Testimonials</p>
