@@ -26,7 +26,7 @@ const ServiceStrategy = () => {
                   <br /> developing long-term strategic plans to achieve their
                   goals
                 </p>
-                <p className="blue">
+                <p className="blue hover">
                   Learn More <MdArrowOutward className="about-arrow" />
                 </p>
               </div>
@@ -42,7 +42,7 @@ const ServiceStrategy = () => {
                   Conduct thorough market research to provide insights into
                   market trends, customer behaviors, and others
                 </p>
-                <p className="blue">
+                <p className="blue hover">
                   Learn More <MdArrowOutward className="about-arrow" />
                 </p>
               </div>
@@ -58,7 +58,7 @@ const ServiceStrategy = () => {
                   Financial analysis, budgeting, forecasting, and investment
                   advice to help businesses optimize their financial.
                 </p>
-                <p className="blue">
+                <p className="blue hover">
                   Learn More <MdArrowOutward className="about-arrow" />
                 </p>
               </div>
@@ -81,7 +81,7 @@ const ServiceStrategy = () => {
                   <br /> developing long-term strategic plans to achieve their
                   goals
                 </p>
-                <p className="blue">
+                <p className="blue hover">
                   Learn More <MdArrowOutward className="about-arrow" />
                 </p>
               </div>
@@ -97,7 +97,7 @@ const ServiceStrategy = () => {
                   Conduct thorough market research to provide insights into
                   market trends, customer behaviors, and others
                 </p>
-                <p className="blue">
+                <p className="blue hover">
                   Learn More <MdArrowOutward className="about-arrow" />
                 </p>
               </div>
@@ -113,7 +113,7 @@ const ServiceStrategy = () => {
                   Financial analysis, budgeting, forecasting, and investment
                   advice to help businesses optimize their financial.
                 </p>
-                <p className="blue">
+                <p className="blue hover">
                   Learn More <MdArrowOutward className="about-arrow" />
                 </p>
               </div>

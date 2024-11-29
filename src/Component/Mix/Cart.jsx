@@ -104,7 +104,7 @@ const Cart = () => {
           <Col>
           
           <p className="price-content text-center">
-                Reach us for more details: <span className="blue">Contact Us</span>
+                Reach us for more details: <span className="blue hover">Contact Us</span>
           </p>
           </Col>
         </Row>

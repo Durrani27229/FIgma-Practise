@@ -8,6 +8,7 @@ import Strategy from './Strategy';
 import Customer from './Customer';
 import Banner from './Banner';
 import Footer from '../Footer/Footer';
+import Banner2 from './Banner2';
 
 
 const CaseStudy = () => {
@@ -42,6 +43,8 @@ const CaseStudy = () => {
         </Col>
       </Row>
     </Container>   
+
+    <Banner2 />
 
     <Customer />
 

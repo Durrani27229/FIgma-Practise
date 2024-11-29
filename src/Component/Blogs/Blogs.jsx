@@ -6,6 +6,52 @@ import Col from "react-bootstrap/Col";
 import BlogCart from "../Mix/BlogCart";
 import Footer from "../Footer/Footer";
 
+const blogData = [
+  {
+    id: 1,
+    title: 'Unlocking the Power of  Content Marketing: Strategies for Success',
+    date: 'April 26,2024',
+    img: 'blog-image1',
+    btnTitle: 'Interactive Content',
+  },
+  {
+    id: 2,
+    title: 'Mastering Social Media: Tips and Tactics for Business Growth',
+    date: 'April 26,2024',
+    img: 'blog-image2',
+    btnTitle: 'Digital Marketing',
+  },
+  {
+    id: 3,
+    title: "SEO Essentials: Boosting Your Website's Visibility and Rankings",
+    date: 'April 26,2024',
+    img: 'blog-image3',
+    btnTitle: 'Marketing Tools',
+  },
+  {
+    id: 4,
+    title: 'The Art of Email Marketing: Crafting Compelling Campaigns That Convert',
+    date: 'April 26,2024',
+    img: 'blog-image4',
+    btnTitle: 'Marketing Tools',
+  },
+  {
+    id: 5,
+    title: 'Harnessing the Influence: Strategies for Effective Influencer Marketing',
+    date: 'April 26,2024',
+    img: 'blog-image5',
+    btnTitle: 'Marketing Tools',
+  },
+  {
+    id: 6,
+    title: 'Beyond Borders: Expanding Your Reach with International Marketing',
+    date: 'April 26,2024',
+    img: 'blog-image6',
+    btnTitle: 'Interactive Content',
+  }
+
+]
+
 
 const Blogs = () => {
   // const blogCart = [
@@ -77,6 +123,8 @@ const Blogs = () => {
                 );
               })} */}
 
+
+
   return (
     <Container fluid>
       <Row>
@@ -100,7 +148,15 @@ const Blogs = () => {
         </Row>
       </Container>
 
-    <BlogCart />
+      <Container>
+        <Row>
+        {blogData.map((value,index)=>{
+          return (<BlogCart value={value} />)
+      })}
+        </Row>
+      </Container>
+
+    {/* <BlogCart /> */}
 
     <Container className="mt-5">
       <Row>
