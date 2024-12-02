@@ -736,12 +736,7 @@
 
 /* ========== Case Detail ============ */
 
-.case-detail{
-  /* height: 1090px; */
 
-
-
-}
 .case-image{
   /* width: 784px;
   height: 535px; */
@@ -866,4 +861,148 @@ textarea{
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+}
+
+/* =========== Common =========== */
+.common{
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.common-head{
+  font-size: 49px;
+  font-weight: 700;
+  color: #252422;
+}
+.common-div-blue{
+  height: 75px;
+  border: 1px solid #0096C7;
+  border-radius: 16px;
+  padding: 24px;
+  background-color: #0096C7;
+  display: flex;
+  justify-content: space-between;
+}
+.common-text-white{
+  font-size: 18px;
+  color: #EDF2F4;
+  
+}
+.common-text-blue{
+  font-size: 18px;
+  color: #0096C7;
+  
+}
+.arrow-icon{
+  color: white;
+}
+.arrow-icon-blue{
+  color: #0096C7;
+}
+.common-para{
+  font-size: 16px;
+  color: #252422;
+  padding: 24px;
+}
+.common-div-white{
+  height: 75px;
+  border: 1px solid #0096C7;
+  border-radius: 16px;
+  padding: 24px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* =========== Blog Detail =========== */
+
+.blog-heading{
+  font-size: 39px;
+  color: #252422;
+  font-weight: 600;
+  line-height: 46px;
+}
+.blog-main{
+  height: 176px;
+  background-color: #0096C7;
+  border-radius: 16px;
+  color: white;
+  padding: 23px 38px 23px 38px;
+  gap: 40px;
+  display: flex;
+}
+.blog-name{
+  font-size: 20px;
+  font-weight: 600;
+  
+}
+.blog-para{
+  font-size: 16px;
+  /* font-weight: 600; */
+}
+.blog-detail-cart{
+  height: 789px;
+  border-radius: 16px;
+  padding: 48px 32px 48px 32px;
+  display: flex;
+  flex-direction: column;
+
+  /* gap: 40px; */
+}
+.archive{
+  font-size: 31px;
+  font-weight: 600;
+
+}
+.archieve-cart{
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.archieve-content{
+  height: 104px;
+  width: 320px;
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+
+}
+.arch-img{
+  width: 120px;
+  height: 80px;
+  border-radius: 8px;
+}
+.arch-inner{
+  width: 182px;
+  height: 104px;
+  gap: 24px;
+}
+.arch-para{
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+
+}
+.arch-read{
+  font-size: 13px;
+  color: #4D4D4D;
+}
+
+
+/* ========== error ============= */
+
+.error{
+  height: 665px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.error-image{
+  height: 366px;
+  width: 550px;
+}
+
+.link{
+  text-decoration: none;
 }

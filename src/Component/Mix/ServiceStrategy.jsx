@@ -3,6 +3,7 @@ import Container from 'react-bootstrap/esm/Container'
 import Row from 'react-bootstrap/esm/Row'
 import Col from 'react-bootstrap/esm/Col'
 import { MdArrowOutward } from "react-icons/md";
+import { Link } from "react-router-dom";
 
 
 
@@ -26,9 +27,9 @@ const ServiceStrategy = () => {
                   <br /> developing long-term strategic plans to achieve their
                   goals
                 </p>
-                <p className="blue hover">
+                <Link to="/service_detail" className='link'><p className="blue hover">
                   Learn More <MdArrowOutward className="about-arrow" />
-                </p>
+                </p></Link>
               </div>
               <div className="ab-2">
                 <img
@@ -42,9 +43,9 @@ const ServiceStrategy = () => {
                   Conduct thorough market research to provide insights into
                   market trends, customer behaviors, and others
                 </p>
-                <p className="blue hover">
+                <Link to="/service_detail" className='link'><p className="blue hover">
                   Learn More <MdArrowOutward className="about-arrow" />
-                </p>
+                </p></Link>
               </div>
               <div className="ab-2">
                 <img
@@ -58,9 +59,9 @@ const ServiceStrategy = () => {
                   Financial analysis, budgeting, forecasting, and investment
                   advice to help businesses optimize their financial.
                 </p>
-                <p className="blue hover">
+                <Link to="/service_detail" className='link'><p className="blue hover">
                   Learn More <MdArrowOutward className="about-arrow" />
-                </p>
+                </p></Link>
               </div>
             </div>
           </Col>
@@ -81,9 +82,9 @@ const ServiceStrategy = () => {
                   <br /> developing long-term strategic plans to achieve their
                   goals
                 </p>
-                <p className="blue hover">
+                <Link to="/service_detail" className='link'><p className="blue hover">
                   Learn More <MdArrowOutward className="about-arrow" />
-                </p>
+                </p></Link>
               </div>
               <div className="ab-2">
                 <img
@@ -97,9 +98,9 @@ const ServiceStrategy = () => {
                   Conduct thorough market research to provide insights into
                   market trends, customer behaviors, and others
                 </p>
-                <p className="blue hover">
+                <Link to="/service_detail" className='link'><p className="blue hover">
                   Learn More <MdArrowOutward className="about-arrow" />
-                </p>
+                </p></Link>
               </div>
               <div className="ab-2">
                 <img
@@ -113,9 +114,9 @@ const ServiceStrategy = () => {
                   Financial analysis, budgeting, forecasting, and investment
                   advice to help businesses optimize their financial.
                 </p>
-                <p className="blue hover">
+                <Link to="/service_detail" className='link'><p className="blue hover">
                   Learn More <MdArrowOutward className="about-arrow" />
-                </p>
+                </p></Link>
               </div>
             </div>
           </Col>
@@ -124,4 +125,4 @@ const ServiceStrategy = () => {
   )
 }
 
-export default ServiceStrategy
+export default ServiceStrategy;

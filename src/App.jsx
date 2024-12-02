@@ -16,6 +16,9 @@ import CaseStudy from './Component/Mix/CaseStudy'
 import OurTeam from './Component/Mix/OurTeam'
 import CaseDeatil from './Component/Mix/CaseDeatil'
 import ServiceDetail from './Component/Mix/ServiceDetail'
+import Common from './Component/Mix/Common'
+import BlogDetail from './Component/Mix/BlogDetail' 
+import Error from './Component/Mix/Error'
 
 function App() {
     const router = createBrowserRouter([
@@ -54,6 +57,18 @@ function App() {
       {
         path:'/service_detail',
         element: <> <Navbar /> <ServiceDetail /> </>
+      },
+      {
+        path: '/common',
+        element: <> <Navbar /> <Common /> </>
+      },
+      {
+        path: '/blog_detail',
+        element: <> <Navbar /> <BlogDetail /> </>
+      },
+      {
+        path: '/404',
+        element: <> <Navbar /> <Error /></>
       }
     ])
 
